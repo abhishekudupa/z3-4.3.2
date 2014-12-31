@@ -67,3 +67,4 @@ src/api/java/enumerations/*.java
 *.bak
 doc/api
 doc/code
+install

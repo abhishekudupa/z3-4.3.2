@@ -164,10 +164,10 @@ extern "C" {
        def_API('Z3_compute_interpolant', INT, (_in(CONTEXT), _in(AST), _in(PARAMS), _out(AST_VECTOR), _out(MODEL)))
        */
 
-    Z3_lbool Z3_API Z3_compute_interpolant(__in Z3_context c, 
-                                           __in Z3_ast pat, 
-                                           __in Z3_params p, 
-                                           __out Z3_ast_vector *interp, 
+    Z3_lbool Z3_API Z3_compute_interpolant(__in Z3_context c,
+                                           __in Z3_ast pat,
+                                           __in Z3_params p,
+                                           __out Z3_ast_vector *interp,
                                            __out Z3_model *model);
 
     /** Return a string summarizing cumulative time used for
@@ -287,7 +287,7 @@ extern "C" {
     /*@}*/
 
 #ifdef __cplusplus
-};
+}
 #endif // __cplusplus
 
 #endif
